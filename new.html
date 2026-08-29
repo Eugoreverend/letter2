@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>To My Sunshine</title>
+
+  <!-- SAME CSS FILE -->
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Quicksand:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+</head>
+
+<body>
+
+  <!-- Music button -->
+  <button id="playBtn">
+    Play Music 🎵
+  </button>
+
+
+  <div class="dawn">
+
+    <!-- Sunrise -->
+    <div class="sun"></div>
+
+    <!-- Clouds -->
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+
+
+    <!-- Floating light -->
+    <div class="particles">
+
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+
+    </div>
+
+
+    <!-- Main content -->
+    <div class="wrap">
+
+      <h1>
+        To My Sunshine ☀️
+      </h1>
+
+
+      <div class="postcard">
+
+        <div class="letter">
+
+          <p>
+
+            <span>To my Sunshine,</span>
+
+            <br><br>
+
+            In a world that can sometimes feel cold and quiet,
+            somehow, I found someone who brings a little warmth
+            wherever she goes.
+
+            <br><br>
+
+            It’s only been three months...
+            just a small moment compared to the lifetime
+            that stretches endlessly ahead of us.
+
+            Yet somehow, in that short amount of time,
+            you've become one of the first thoughts that
+            crosses my mind when morning comes.
+
+            <br><br>
+
+            There's something about you that reminds me of dawn.
+
+            Not because you're loud or overwhelming,
+            but because you arrive gently—
+            slowly turning the darkness into something beautiful.
+
+            <br><br>
+
+            Your smile feels like sunlight through a window
+            after a long night.
+
+            Your presence feels like that quiet moment
+            when the sky changes color and you realize
+            that a new day has finally begun.
+
+            <br><br>
+
+            I've tried to say these things countless times,
+            but whenever I do, the words seem to disappear.
+
+            So maybe writing them down is easier.
+
+            <br><br>
+
+            You have become a warmth I didn't know
+            I was looking for.
+
+            A little light in ordinary days.
+
+            A reason to smile at my phone.
+
+            A thought that somehow makes even
+            the simplest moments feel special.
+
+            <br><br>
+
+            I don't know what tomorrow will bring.
+
+            Maybe our paths will continue to grow closer.
+            Maybe they'll wander somewhere unexpected.
+
+            But if you ever find yourself wondering
+            whether you've made someone's world brighter...
+
+            <br><br>
+
+            You have.
+
+            <br><br>
+
+            Mine.
+
+            <br><br>
+
+            And if you ever feel like walking beneath
+            the morning sky with me,
+
+            I'd be happy to walk beside you.
+
+            <br><br>
+
+            No promises about where the road leads.
+
+            No pressure.
+
+            Just two people,
+            watching the sunrise together,
+            and seeing where the next day takes us.
+
+            <br><br>
+
+            <span class="signature">
+
+              Yours Truly,<br />
+
+              Kael ☀️
+
+            </span>
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Music -->
+  <audio id="bgMusic" loop>
+
+    <source
+      src="Lost in Thoughts.mp3"
+      type="audio/mpeg"
+    />
+
+    Your browser does not support the audio element.
+
+  </audio>
+
+
+  <script>
+
+    const playBtn =
+      document.getElementById("playBtn");
+
+    const bgMusic =
+      document.getElementById("bgMusic");
+
+
+    playBtn.addEventListener("click", () => {
+
+      bgMusic.play();
+
+      playBtn.textContent = "♪ Playing";
+
+      playBtn.classList.add("playing");
+
+    });
+
+  </script>
+
+</body>
+
+</html>
+

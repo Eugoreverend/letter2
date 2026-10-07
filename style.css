@@ -819,68 +819,6 @@ body {
    MUSIC BUTTON
 ========================================================= */
 
-#playBtn {
-
-  position: fixed;
-
-  top: 20px;
-  right: 20px;
-
-  background:
-    rgba(255, 255, 255, 0.9);
-
-  border: none;
-
-  padding:
-    11px 20px;
-
-  font-family:
-    'Quicksand',
-    sans-serif;
-
-  font-weight: 600;
-
-  font-size: 0.9rem;
-
-  color: #d9795c;
-
-  border-radius: 25px;
-
-  cursor: pointer;
-
-  z-index: 1000;
-
-  box-shadow:
-    0 5px 20px
-    rgba(120, 70, 40, 0.2);
-
-  transition:
-    all 0.3s ease;
-
-}
-
-
-#playBtn:hover {
-
-  transform:
-    translateY(-3px);
-
-  background: #fff;
-
-  box-shadow:
-    0 8px 25px
-    rgba(120, 70, 40, 0.3);
-
-}
-
-
-#playBtn.playing {
-
-  background:
-    rgba(255, 240, 210, 0.95);
-
-}
-
 
 /* =========================================================
    GENERAL ANIMATION
